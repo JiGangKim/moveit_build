@@ -1,0 +1,8 @@
+prefix=/home/donghoonpark/moveit/devel
+
+Name: household_objects_database_msgs
+Description: Description of household_objects_database_msgs
+Version: 0.1.1
+Cflags: -I/home/donghoonpark/moveit/devel/include
+Libs: -L/home/donghoonpark/moveit/devel/lib 
+Requires: message_generation std_msgs geometry_msgs shape_msgs object_recognition_msgs

@@ -1,0 +1,8 @@
+prefix=/home/donghoonpark/moveit/devel
+
+Name: moveit_ros_robot_interaction
+Description: Description of moveit_ros_robot_interaction
+Version: 0.6.6
+Cflags: -I/home/donghoonpark/moveit/src/moveit_ros/robot_interaction/include
+Libs: -L/home/donghoonpark/moveit/devel/lib -lmoveit_robot_interaction
+Requires: moveit_ros_planning interactive_markers

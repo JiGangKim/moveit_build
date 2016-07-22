@@ -1,0 +1,8 @@
+prefix=/home/donghoonpark/moveit/install_isolated
+
+Name: moveit_ros_robot_interaction
+Description: Description of moveit_ros_robot_interaction
+Version: 0.6.6
+Cflags: -I/home/donghoonpark/moveit/install_isolated/include
+Libs: -L/home/donghoonpark/moveit/install_isolated/lib -lmoveit_robot_interaction
+Requires: moveit_ros_planning interactive_markers

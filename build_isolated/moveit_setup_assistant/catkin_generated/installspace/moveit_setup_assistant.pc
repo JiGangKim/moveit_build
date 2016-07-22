@@ -1,0 +1,8 @@
+prefix=/home/donghoonpark/moveit/install_isolated
+
+Name: moveit_setup_assistant
+Description: Description of moveit_setup_assistant
+Version: 0.7.1
+Cflags: -I/home/donghoonpark/moveit/install_isolated/include
+Libs: -L/home/donghoonpark/moveit/install_isolated/lib -lmoveit_setup_assistant_tools
+Requires: moveit_ros_planning moveit_ros_visualization

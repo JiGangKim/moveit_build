@@ -1,0 +1,8 @@
+prefix=/home/donghoonpark/moveit/install_isolated
+
+Name: moveit_core
+Description: Description of moveit_core
+Version: 0.8.2
+Cflags: -I/usr/include/eigen3 -I/home/donghoonpark/moveit/install_isolated/include -I/opt/ros/kinetic/include -I/usr/include
+Libs: -L/home/donghoonpark/moveit/install_isolated/lib -lmoveit_exceptions -lmoveit_background_processing -lmoveit_kinematics_base -lmoveit_robot_model -lmoveit_transforms -lmoveit_robot_state -lmoveit_robot_trajectory -lmoveit_planning_interface -lmoveit_collision_detection -lmoveit_collision_detection_fcl -lmoveit_kinematic_constraints -lmoveit_planning_scene -lmoveit_constraint_samplers -lmoveit_planning_request_adapter -lmoveit_profiler -lmoveit_trajectory_processing -lmoveit_distance_field -lmoveit_kinematics_metrics -lmoveit_dynamics_solver -l:/opt/ros/kinetic/lib/liboctomap.so -l:/opt/ros/kinetic/lib/liboctomath.so -l:/usr/lib/x86_64-linux-gnu/libboost_system.so -l:/usr/lib/x86_64-linux-gnu/libboost_filesystem.so -l:/usr/lib/x86_64-linux-gnu/libboost_date_time.so -l:/usr/lib/x86_64-linux-gnu/libboost_thread.so -l:/usr/lib/x86_64-linux-gnu/libboost_iostreams.so -l:/usr/lib/x86_64-linux-gnu/libboost_chrono.so -l:/usr/lib/x86_64-linux-gnu/libboost_atomic.so -l:/usr/lib/x86_64-linux-gnu/libboost_regex.so -l:/usr/lib/x86_64-linux-gnu/libpthread.so -l:/usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so -l:/usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so -l:/usr/lib/x86_64-linux-gnu/liburdfdom_model.so -l:/usr/lib/x86_64-linux-gnu/liburdfdom_world.so -l:/usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+Requires: geometric_shapes eigen_stl_containers eigen_conversions random_numbers moveit_msgs kdl_parser srdfdom

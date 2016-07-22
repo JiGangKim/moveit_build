@@ -1,0 +1,8 @@
+prefix=/home/donghoonpark/moveit/devel
+
+Name: moveit_ros_move_group
+Description: Description of moveit_ros_move_group
+Version: 0.6.6
+Cflags: -I/home/donghoonpark/moveit/src/moveit_ros/move_group/include
+Libs: -L/home/donghoonpark/moveit/devel/lib -lmoveit_move_group_capabilities_base
+Requires: moveit_core moveit_ros_planning

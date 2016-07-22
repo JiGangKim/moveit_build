@@ -1,0 +1,8 @@
+prefix=/home/donghoonpark/moveit/install
+
+Name: moveit_simple_controller_manager
+Description: Description of moveit_simple_controller_manager
+Version: 0.5.7
+Cflags: -I/home/donghoonpark/moveit/install/include
+Libs: -L/home/donghoonpark/moveit/install/lib 
+Requires: moveit_core actionlib control_msgs

@@ -1,0 +1,8 @@
+prefix=/home/donghoonpark/moveit/install_isolated
+
+Name: manipulation_msgs
+Description: Description of manipulation_msgs
+Version: 0.2.0
+Cflags: -I/home/donghoonpark/moveit/install_isolated/include
+Libs: -L/home/donghoonpark/moveit/install_isolated/lib 
+Requires: message_generation actionlib_msgs std_msgs geometry_msgs sensor_msgs shape_msgs household_objects_database_msgs

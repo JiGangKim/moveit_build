@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/donghoonpark/moveit/src/srdfdom/include/srdfdom/model.h
+map
+-
+string
+-
+vector
+-
+utility
+-
+urdf_model/model.h
+-
+tinyxml.h
+-
+
+/home/donghoonpark/moveit/src/srdfdom/src/model.cpp
+srdfdom/model.h
+/home/donghoonpark/moveit/src/srdfdom/src/srdfdom/model.h
+console_bridge/console.h
+-
+boost/lexical_cast.hpp
+-
+boost/algorithm/string/trim.hpp
+-
+algorithm
+-
+fstream
+-
+sstream
+-
+set
+-
+limits
+-
+
